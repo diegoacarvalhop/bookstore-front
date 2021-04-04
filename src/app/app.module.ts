@@ -25,6 +25,7 @@ import { HomeComponent } from './components/views/home/home.component';
 import { CategoriaReadComponent } from './components/views/categoria/categoria-read/categoria-read.component';
 import { CategoriaCreateComponent } from './components/views/categoria/categoria-create/categoria-create.component';
 import { CetegoriaDeleteComponent } from './components/views/categoria/cetegoria-delete/cetegoria-delete.component';
+import { CategoriaUpdateComponent } from './components/views/categoria/categoria-update/categoria-update.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { CetegoriaDeleteComponent } from './components/views/categoria/cetegoria
     HomeComponent,
     CategoriaReadComponent,
     CategoriaCreateComponent,
-    CetegoriaDeleteComponent
+    CetegoriaDeleteComponent,
+    CategoriaUpdateComponent
   ],
   imports: [
     BrowserModule,

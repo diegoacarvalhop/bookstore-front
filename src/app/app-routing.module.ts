@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { CategoriaCreateComponent } from './components/views/categoria/categoria-create/categoria-create.component';
 import { CategoriaReadComponent } from './components/views/categoria/categoria-read/categoria-read.component';
+import { CategoriaUpdateComponent } from './components/views/categoria/categoria-update/categoria-update.component';
 import { CetegoriaDeleteComponent } from './components/views/categoria/cetegoria-delete/cetegoria-delete.component';
 import { HomeComponent } from './components/views/home/home.component';
 
@@ -17,11 +18,14 @@ const routes: Routes = [
   {
     path: 'categorias/create',
     component: CategoriaCreateComponent
-  }
-  ,
+  },
   {
     path: 'categorias/delete/:id',
     component: CetegoriaDeleteComponent
+  },
+  {
+    path: 'categorias/update/:id',
+    component: CategoriaUpdateComponent
   }
 ];
 
