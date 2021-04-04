@@ -24,6 +24,7 @@ import { NavComponent } from './components/template/nav/nav.component';
 import { HomeComponent } from './components/views/home/home.component';
 import { CategoriaReadComponent } from './components/views/categoria/categoria-read/categoria-read.component';
 import { CategoriaCreateComponent } from './components/views/categoria/categoria-create/categoria-create.component';
+import { CetegoriaDeleteComponent } from './components/views/categoria/cetegoria-delete/cetegoria-delete.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { CategoriaCreateComponent } from './components/views/categoria/categoria
     NavComponent,
     HomeComponent,
     CategoriaReadComponent,
-    CategoriaCreateComponent
+    CategoriaCreateComponent,
+    CetegoriaDeleteComponent
   ],
   imports: [
     BrowserModule,
